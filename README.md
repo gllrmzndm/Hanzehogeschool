@@ -3,8 +3,6 @@
 - [X] het 2e lesgebouw brugsmaborg heeft een iets hogere afbeelding, als je dat rechtzet gaat het er netter uitzien 
 - [X] je kan er nog een link onder plaatsen: "bekijk gebouw in maps" zodat je weet waar je naartoe gaat als je klikt
 - Illustraties juist schalen
-- [] Tool tips
-- [] Darkmode
-- [] Images schalen
-
-~ Bram
+- [ ] Tool tips
+- [ ] Darkmode
+- [ ] Images schalen
