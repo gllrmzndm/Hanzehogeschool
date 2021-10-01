@@ -1338,3 +1338,59 @@ section {
     padding: 3px 0;
   }
 }
+
+
+/*--------------------------------------------------------------
+# Media query darkmode
+--------------------------------------------------------------*/
+:root {
+--dark-mode: #323234;
+--light-dark: #626265;
+--light-text: #ffffff;  
+}
+
+@media (prefers-color-scheme: dark) {
+  #hero {
+    background: var(--dark-mode);  
+  }
+  .section-bg {
+    background-color: var(--dark-mode);
+  }
+  #footer .footer-top {
+    background: var(--dark-mode);
+  }
+  #header {
+    background: var(--light-dark);
+  }
+  .services .icon-box {
+    background: var(--light-dark);
+    border-bottom: 3px solid var(--light-dark);
+  }
+  #footer {
+    background: var(--dark-mode);
+  }
+  .navbar a, .navbar a:focus {
+    color: var(--light-text);
+  }
+  #header .logo h1 a, #header .logo h1 a:hover {
+    color: var(--light-text);
+  }
+  #hero h1 {
+    color: var(--light-text);
+  }
+  .section-title p {
+    color: var(--light-text);
+  }
+  #footer .footer-top .footer-links ul a {
+    color: var(--light-text);
+  }
+  #footer .footer-top .footer-contact p {
+    color: var(--light-text);
+  }
+  #footer .footer-top h4, h3, p{
+    color: var(--light-text);
+  }
+  .faq .faq-list .collapsed {
+    color: var(--light-text);
+  }
+}
