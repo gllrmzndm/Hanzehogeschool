@@ -1393,4 +1393,7 @@ section {
   .faq .faq-list .collapsed {
     color: var(--light-text);
   }
+  section {
+    background-color: var(--dark-mode);
+  }
 }
